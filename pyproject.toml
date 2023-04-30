@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pwhomework13part1"
+version = "0.1.0"
+description = ""
+authors = ["Jymbarbaruoky <116517553+Jymbarbaruoky@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+fastapi = "^0.95.1"
+uvicorn = {extras = ["standard"], version = "^0.21.1"}
+sqlalchemy = "^2.0.9"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+fastapi-jwt-auth = "^0.5.0"
+python-multipart = "^0.0.6"
+libgravatar = "^1.0.4"
+alembic = "^1.10.3"
+psycopg2 = "^2.9.6"
+pydantic = {extras = ["email"], version = "^1.10.7"}
+fastapi-mail = "^1.2.8"
+python-dotenv = "^1.0.0"
+fastapi-limiter = "^0.1.5"
+redis = "^4.5.4"
+asyncio = "^3.4.3"
+cloudinary = "^1.32.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
